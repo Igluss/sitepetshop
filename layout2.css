@@ -1,0 +1,101 @@
+/* layout.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+header img {
+    width: 134px;
+    height: 146px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    border: none;
+    outline: 4px ridge rgba(128, 125, 129, 0.6);
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .fa-search {
+    font-size: 18px;
+  }
+
+#Grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 1 coluna para o aside e 2 colunas para os produtos */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px;
+}
+
+aside {
+    background-color: #e0e0e0; /* Cor de fundo para o aside */
+    padding: 10px;
+    border-radius: 5px; /* Bordas arredondadas */
+    
+}
+aside img {
+    width: 448px;
+    height: 508px;
+}
+
+.produto {
+    background-color: #f0f0f0; /* Cor de fundo para a seção de produtos */
+    padding: 10px;
+    text-align: center;
+    /* Bordas arredondadas */
+}
+.produto img{
+    background-color: #f0f0f0; /* Cor de fundo para a seção de produtos */
+    width: 235px;
+    height: 235px;
+    outline: 4px ridge rgba(128, 125, 129, 0.6); /* Bordas arredondadas */
+}
+.banner {
+    margin-bottom: 20px;
+    background-size: cover;
+    width: 580px;
+    height: 119px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #094369;
+}
+
+.app-stores {
+    margin-top: 10px;
+}
